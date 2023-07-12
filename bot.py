@@ -1,5 +1,5 @@
 """
-- Phyton env: ...
+- WhatsApp chats ile training process yapılabilir!
 """
 
 from chatterbot import ChatBot
@@ -17,7 +17,9 @@ trainer.train([
     "No, I'm the pot below the plant!",
 ])
 
-exit_conditions = (":p", "quit", "exit")
+exit_conditions = (":q", "quit", "exit")
+print("\nYou can exit with these commands: ", exit_conditions, "\n")
+
 while True:
     query = input("> ")
     if query in exit_conditions:
