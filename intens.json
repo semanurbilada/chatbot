@@ -1,0 +1,32 @@
+{ "intens": [
+    {
+        "tag": "greetings",
+        "patterns": ["hi", "hello", "hey", "what's up?", "good day", "greetings", "how is it going?", "how was you day?"],
+        "responses": ["Hi!", "Hey!", "Hello!", "What can I do for you?"]
+    },
+    {
+        "tag": "goodbye",
+        "patterns": ["I am Leaving", "cya", "see you later", "goodbye", "Have a Good day", "bye", "cao"],
+        "responses": ["Sad to see you go", "Talk to you later", "Goodbye", "I hope, I can see you again"]
+    },
+    {
+        "tag": "name",
+        "patterns": ["What is your name", "What should I call you", "whats your name?", "who are you?"],
+        "responses": ["You can call me Fam", "I'm Fam", "I'm Fam, the assistant of Portal"]
+    },
+    {
+        "tag": "age",
+        "patterns": ["how old", "how old is Portal", "what is your age ", "how old are you", "age?"],
+        "responses": ["My owner Portal is 1 years old ", "1 year"]
+    },
+    {
+        "tag": "questions",
+        "patterns": ["Id like to solve problems", "what are tickets?", "what do you recommend?"],
+        "responses": ["I'm here to help you solve problems", "If we cannot solve problems, let's open a ticket!"]
+    },
+    {
+        "tag": "hours",
+        "patterns": ["When are you guys open", "What are your hours", "Hours of operation"],
+        "responses": ["7/24"]
+    }
+]}
