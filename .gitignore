@@ -1,2 +1,3 @@
-venv
-db.sqlite3
+words.pkl
+classes.pkl
+.DS_Store
