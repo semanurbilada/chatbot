@@ -1,3 +1,4 @@
+.DS_Store
 words.pkl
 classes.pkl
-.DS_Store
+chatbotmodel.h5

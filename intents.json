@@ -1,8 +1,8 @@
-{ "intens": [
+{ "intents": [
     {
         "tag": "greetings",
-        "patterns": ["hi", "hello", "hey", "what's up?", "good day", "greetings", "how is it going?", "how was you day?"],
-        "responses": ["Hi!", "Hey!", "Hello!", "What can I do for you?"]
+        "patterns": ["hi", "hello", "hey", "what's up?", "good day", "greetings", "how is it going?", "how was you day?", "how are you?"],
+        "responses": ["Hi!", "Hey!", "Hello!", "I'm fine!", "What can I do for you?"]
     },
     {
         "tag": "goodbye",
