@@ -56,10 +56,17 @@ def get_repsonse(intents_list, intent_json):
             break
     return result
 
-print('Chatbot is ready to talk:\n')
+# Chatbot is case-sensitive in terms of the exit_considitions
+exit_conditions = ("I am leaving", "see you later", "goodbye", "have a good day", "bye", "cao", "quit", "exit")
+
+print('\nChatbot is ready to talk:\n')
 
 while True:
-    message = input("")
+    message = input(" \n")
     ints = predict_class(message)
     res = get_repsonse(ints, intents)
+    print("\n")
     print(res)
+
+    if message in exit_conditions:
+        break

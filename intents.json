@@ -6,18 +6,18 @@
     },
     {
         "tag": "goodbye",
-        "patterns": ["I am Leaving", "cya", "see you later", "goodbye", "Have a Good day", "bye", "cao"],
+        "patterns": ["I am leaving", "cya", "see you later", "goodbye", "Have a Good day", "bye", "cao"],
         "responses": ["Sad to see you go", "Talk to you later", "Goodbye", "I hope, I can see you again"]
     },
     {
         "tag": "name",
         "patterns": ["What is your name", "What should I call you", "whats your name?", "who are you?"],
-        "responses": ["You can call me Fam", "I'm Fam", "I'm Fam, the assistant of Portal"]
+        "responses": ["You can call me Fam", "I'm Fam", "I'm Fam, here for assistance to you!"]
     },
     {
         "tag": "age",
-        "patterns": ["how old", "how old is Portal", "what is your age ", "how old are you", "age?"],
-        "responses": ["My owner Portal is 1 years old ", "1 year"]
+        "patterns": ["how old", "what is your age ", "how old are you", "age?"],
+        "responses": ["My owner is 1 years old ", "1 year"]
     },
     {
         "tag": "questions",
@@ -27,6 +27,12 @@
     {
         "tag": "hours",
         "patterns": ["When are you guys open", "What are your hours", "Hours of operation"],
-        "responses": ["7/24"]
+        "responses": ["7/24", "Here for 7/24!"]
+    },
+    {
+        "tag": "noanswer",
+        "patterns": [" "],
+        "responses": ["I'm sorry, I couldn't understand you.", "Please provide us more information?", "I'm not sure I understand."],
+        "context_set": ""
     }
 ]}
