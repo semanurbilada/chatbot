@@ -10,14 +10,14 @@
 
 <p align="justify">
 
-## Purpose
+# :hash: Purpose
 Welcome to the Chatbot project! This Open-Source Chatbot is widely used to be a various addition to Full-Stack web projects, improves user interactions by connecting Front-End and Back-End APIs. 🔗
 
 Imagine you're building a website or a web application, that involves user interaction; this chatbot can play a main role in delivering real-time responses, assistance, and more user experience with the data set that you developed as a custom in the intents.json file. 🤖 💬
 
 Do not forget when you develop the custom data set, you need to test and update to chatbot and custom data set multiple times. 
 
-## Basic Scripts
+# :hash: Basic Scripts
 To run the basic scripts, follow these commands:
 
 ```
@@ -34,7 +34,7 @@ python chatbot.py
 python3 chatbot.py
 ```
 
-## Notes
+# :hash: Notes
 
 #### 1. gitignore content: Files from training.py after running.
 
