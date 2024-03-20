@@ -2,7 +2,7 @@
 <img src="https://cdn-icons-png.flaticon.com/512/3649/3649460.png" width="200" height="200" alt="chatbot">
 </div>
 
-<h1 align="center">Chatbot</h1>
+<h1 align="center">ChatBot</h1>
 
 *  [:hash: Purpose](#hash-purpose)
 *  [:hash: Basic Scripts](#hash-basic-scripts)
@@ -13,34 +13,43 @@
 # :hash: Purpose
 Welcome to the Chatbot project! This Open-Source Chatbot is widely used to be a various addition to Full-Stack web projects, improves user interactions by connecting Front-End and Back-End APIs. 🔗
 
-Imagine you're building a website or a web application, that involves user interaction; this chatbot can play a main role in delivering real-time responses, assistance, and more user experience with the data set that you developed as a custom in the intents.json file. 🤖 💬
+Imagine you're building a website or a web application, that involves user interaction; this chatbot can play a main role in delivering real-time responses, assistance, and more user experience with the dataset that you developed as a custom in the intents.json file. 🤖 💬
 
-Do not forget when you develop the custom data set, you need to test and update to chatbot and custom data set multiple times. 
+Do not forget; when you develop the custom dataset, you need to test and update to chatbot and custom dataset multiple times. 
 
 # :hash: Basic Scripts
-To run the basic scripts, follow these commands:
+1. Virtual environment setup:
+```
+python -m venv environment_name
+```
 
+3. To activate the virtual environment (Windows):
 ```
-cd chatbot
+environment_name/Scripts/activate
 ```
+
+4. To activate the virtual environment (Linux / MacOS):
 ```
-python training.py
-# or
-python3 training.py
+source environment_name/bin/activate
 ```
+
+5. Install dependencies:
 ```
-python chatbot.py
-# or
-python3 chatbot.py
+pip install -r requirements.txt
 ```
+
+6. Run:
+#### [`Click Here, to see how to run the chatbot!`](https://github.com/semanurbilada/chatbot/tree/feature/client/chatbotAPI)
 
 # :hash: Notes
 
 #### 1. gitignore content: Files from training.py after running.
 
-#### 2. intents.json: Data set; It stores all possible inputs and responses for training.
+#### 2. intents.json: Dataset; It stores all possible inputs and responses for training.
 
-#### 3. Warning: If you are a Windows user; in the training.py file, sometimes you need to add two lines for the library of nltk:
+#### 3. Client folder: Contains a base example of how to send a message to chatbot from client.
+
+#### 4. Warning: If you are a Windows user; in the training.py file, sometimes you need to add two lines for the library of nltk:
 
 ```
 nltk.download('punkt')
