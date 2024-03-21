@@ -1,4 +1,2 @@
+environment_name
 .DS_Store
-words.pkl
-classes.pkl
-chatbotmodel.h5
