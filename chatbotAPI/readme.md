@@ -6,7 +6,6 @@
 </div>
 
 1. Navigate to the ChatBot folder:
-
 ```
 cd chatbotAPI
 ```
@@ -14,13 +13,17 @@ cd chatbotAPI
 2. Train the dataset `intents.json`:
 ```
 python training.py
-# or
+```
+or
+```
 python3 training.py
 ```
 
 3. Run the ChatBot in console:
 ```
 python chatbot.py
-# or
+```
+or
+```
 python3 chatbot.py
 ```

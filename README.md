@@ -39,7 +39,7 @@ pip install -r requirements.txt
 ```
 
 5. Run:
-#### [Click Here, to see `How to run the chatbot?`](https://github.com/semanurbilada/chatbot/tree/feature/client/chatbotAPI)
+#### [Click Here, to see `How to run the chatbot?`](https://github.com/semanurbilada/chatbot/tree/main/chatbotAPI)
 
 # :hash: Notes
 
