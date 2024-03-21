@@ -45,7 +45,7 @@ pip install -r requirements.txt
 
 #### 1. gitignore content (chatbotAPI folder): Files from training.py after running.
 
-#### 2. intents.json: Dataset; It stores all possible inputs and responses for training.
+#### 2. intents.json (chatbotAPI folder): Dataset; It stores all possible inputs and responses for training.
 
 #### 3. Client folder: Contains a base example of how to send a message to chatbot from client.
 

@@ -1,7 +1,7 @@
 <div align="center">
 <img src="https://cdn-icons-png.flaticon.com/512/2621/2621053.png" width="150" height="150" alt="chatbot">
 
-## How to run the chatbot?
+## How to run the ChatBot?
 
 </div>
 
