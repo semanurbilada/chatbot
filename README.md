@@ -7,6 +7,7 @@
 *  [:hash: Purpose](#hash-purpose)
 *  [:hash: Basic Scripts](#hash-basic-scripts)
 *  [:hash: Notes](#hash-notes)
+*  [:hash: Lisense](#hash-lisense)
 
 <p align="justify">
 
@@ -56,3 +57,7 @@ nltk.download('punkt')
 nltk.download('wordnet')
 ```
 </p>
+
+# :hash: License
+
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/semanurbilada/chatbot?tab=MIT-1-ov-file#readme) file for details.
